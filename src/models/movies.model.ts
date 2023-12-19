@@ -12,6 +12,9 @@ export class Movies {
 	description: string;
 
     @Column()
+	autor: string;
+
+    @Column()
 	time: string;
 
     @Column()
